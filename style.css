@@ -6,7 +6,6 @@ body{
     display:grid;
     grid-template-columns:1fr 4fr;
     grid-template-rows:1fr 4fr;
-    border:2px solid red;
 }
 
 .title{
@@ -23,7 +22,6 @@ body{
     background-color:lightblue;
     display:grid;
     grid-template-rows: 1fr 2fr;
-    border:2px solid green;
     background-color:rgb(45, 151, 227);
     color:white;
     font-weight:500;
@@ -42,9 +40,7 @@ img{
     
 }
 
-.left-column> .item{
-    border:2px solid green;
-}
+
 
 
 li{
@@ -84,10 +80,10 @@ li{
 }
 
 .container>div{
-    border:2px red solid;
 }
 .item1, .item2, .item3, .item4{
-    border:goldenrod 2px solid;
+    background-color:white;
+
 }
 
 .item1{
@@ -105,4 +101,69 @@ input[type="text"]{
     margin:0px;
     border:none;
     height:22px;
+}
+
+
+.item2{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+}
+
+.item22{
+    display:flex;
+    align-items:center;
+    flex-direction:row;
+    font-weight:800;
+    gap:70px;
+    
+}
+img.bird{
+    height:30px;
+    width:30px;
+}
+
+#profile{
+    height:40px;
+    width:40px;
+}
+
+.item3{
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    padding-left:100px;
+    gap:20px;
+    
+}
+.item3-2{
+    display:flex;
+    flex-direction:column;
+    justify-items:center;
+    align-content:center;
+    font-size:22px;
+    font-weight:600;
+    margin:0px;
+}
+.sub{
+    font-size:14px;
+}
+
+
+.item4{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    padding-right:20px;
+}
+button{
+    width:100px;
+    height:35px;
+    background-color:rgb(56, 89, 234);
+    color:white;
+    font-size:12px;
+    border-radius:20px;
+    border:none;
+
 }
