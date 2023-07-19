@@ -167,3 +167,14 @@ button{
     border:none;
 
 }
+
+.bottomright{
+    display:grid;
+    grid-template-rows:1fr 8fr;
+    grid-template-columns:2fr 1fr;
+    padding-left:24px;
+}
+.bottom-right>div{
+    border:gray 2px solid;
+}
+
